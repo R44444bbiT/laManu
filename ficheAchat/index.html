@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       form > div:first-child {
+            background-color: aqua;
+       }    
+       form > div:nth-child(2) {
+            background-color: yellow;
+       }    
+       form > div:nth-child(3) {
+            background-color: brown;
+       }    
+        section form div:nth-child(1){
+            position: relative;
+            display: block;
+            height: 40vh;
+            div {
+                height: 5%;
+            }
+        }
+        section form div:nth-child(2){
+            position: relative;
+            display: block;
+            height: 35vh;
+            div {
+                height: 5%;
+            }
+        }
+        section form div:nth-child(3){
+            position: relative;
+            display: block;
+            height: 50vh;
+            div {
+                height: 5%;
+            }
+        }
+        h2 {
+            position: absolute;
+            top: -1.5em;
+            left: -.5em;
+            background-color: white;
+        }
+        form div {
+            height: 300px;
+            margin: 2em;
+            padding: 1.8em;
+        }
+        li {
+            margin-top: .2em;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <form action="">
+
+            <div>
+                <h2>Votre Identité</h2>
+                <div>
+                    <label for="">1. Nom :</label>
+                    <input type="text" name="" id="" placeholder="Nom">
+                </div>
+                <div>
+                    <label for="">2. Prénom :</label>
+                    <input type="text" name="" id="" placeholder="Prénom">
+                </div>
+                <div>
+                    <label for="">3. Adresse mail :</label>
+                    <input type="text" name="" id="" placeholder="Nom">
+                </div>
+            </div>
+           
+            <div>
+                <h2>Adresse de livraison</h2>
+                <div>
+                    <label for="">1. Adresse :</label>
+                    <input type="text" name="" id="" placeholder="Nom">
+                </div>
+                <div>
+                    <label for="">2. Code postal :</label>
+                    <input type="text" name="" id="" placeholder="Prénom">
+                </div>
+                <div>
+                    <label for="">3. Ville :</label>
+                    <input type="text" name="" id="" placeholder="Nom">
+                </div>
+            </div>
+
+            <div>
+                <h2>Information de réglement</h2>
+                <div>
+                    <label for="">1. Type de carte bancaire :</label>
+                    <ul style="list-style: none; margin-left: 10em;">
+                        <li>
+                            <input type="radio" name="" id="" placeholder="Nom">
+                            <label for="">VISA</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="" id="" placeholder="Nom">
+                            <label for="">MASTER CARD</label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <label for="">2. Numéro de carte :</label>
+                    <input type="text" name="" id="" placeholder="Numéro de carte">
+                </div>
+                <div>
+                    <label for="">3. Code de sécurité social :</label>
+                    <input type="text" name="" id="" placeholder="Code de sécurité">
+                </div>
+                <div>
+                    <label for="">4. Nom du titulaire :</label>
+                    <input type="text" name="" id="" placeholder="Nom du titulaire">
+                </div>
+            </div>
+            
+            <button type="submit">J'achète</button>
+
+        </form>
+    </section>
+</body>
+</html>
